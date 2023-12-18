@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #312828;
+  color: #fff;
+}
+
+.logo {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #312828;
+  color: #fff;
+  font-size:2rem;
+  line-height: 1.3em;
+  position: relative;
+  right: 25%;
+  text-decoration: none;
+}
+
+.h2 {
+    color: #333;
+}
+
+.central {
+    text-align: left;
+    line-height: 1.1;
+    max-width: 1000px;
+    margin: 50px;
+    margin-left: 500px;
+}
+
+
+/* Pie de pagina */
+.container-p {
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 0;
+  }
+  
+  .footer-section h2 {
+    color: #fff;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section p {
+    color: #ccc;
+    line-height: 1.6;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-right: 15px;
+  }
+  
+  .footer-section a:hover {
+    color: #8f99f1;
+  }
+  
+  
+  .footer-section i {
+    font-size: 2em;
+    margin-right: 10px;
+  }
+  
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #312828;
+    color: #fff;
+}
+
+
+/* whatsapp */
+.btn-wsp{
+  position:fixed;
+  width:60px;
+  height:60px;
+  line-height: 63px;
+  bottom:25px;
+  right:25px;
+  background:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:35px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index:100;
+  transition: all 300ms ease;
+}
+.btn-wsp:hover{
+  background: #20ba5a;
+}
+
